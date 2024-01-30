@@ -2,6 +2,7 @@
     width: 100%;
     height: 120px;
     background-color: gray;
+
 }
 
 /*Css para la imagen*/
@@ -11,16 +12,21 @@ img {
     height: 100px;
     margin-top: 10px;
     margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
 }
 
 /*Css para el texto*/
-h1 {
+#contenedor1 h1 {
     float: left;
+    font-family: "Audiowide", sans-serif;
+    font-size: 28px;
     margin-top: 40px;
     margin-left: 20px;
     width: 500px;
     color: white;
     text-shadow: 2px 2px black;
+    
 }
 
 /*Css para la lista*/
@@ -30,6 +36,7 @@ ul {
     list-style-type: none;
     margin: 50px;
     margin-right: 80px;
+ 
 }
 
 li {
@@ -39,17 +46,104 @@ li {
 a {
     text-decoration: underline;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     padding: 2px;
+    color: black;
+    font-weight: bold;
+   
+}
+
+
+
+/* *********************Css para el conetenedor 2 **********************/
+#contenedor2 {
+    width: 100%;
+    height: 350px;
+    margin-top: auto;
+    background-color: rgb(238, 70, 70);
+    clear: both;
+}
+
+/*Css al boton*/
+
+#contenedor2 .boton1 {
+    float:right;
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 12px 30px;
+    color: white;
+    font-size: 18px;
+    
+    background-color: rgb(238, 70, 70);
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+#contenedor2 button:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+/*Css para el h1 del contenedor 2*/
+
+#contenedor2 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+    text-align: center;
+    font-size: 40px ;
     color: white;
     text-shadow: 2px 2px black;
 }
 
-/*Css para el conetenedor 2*/
-#contenedor2 {
-    width: 100%;
-    height: 500px;
-    background-color: tomato;
+/*Css para el h3 del contenedor 2*/
+#contenedor2 h3 {
+    clear: both;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+    text-shadow: 2px 2px black;
+}
+
+/*Css para la etiqueta p del contenedor 2*/
+
+#contenedor2 p {
+    clear: both;
+    position: relative;
+    float: right;
+    right: 600px;
+    padding: 5px 40px;
+    background-color: white;
+    color: rgb(190, 186, 186);
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px 0px 0px 5px;   
+}
+
+/*Css para el boton en el contenedor 2*/
+
+#contenedor2 .boton2 {
+    clear: both;
+    margin-left: 742px;
+    margin-top: 20px;
+    padding: 9px 15px;
+    background-color: rgb(238, 70, 70);
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    border-radius: 0px 5px 5px 0px;   
+}
+
+#contenedor2 p:hover {
+    background-color: rgb(248, 248, 170);
+}
+
+#contenedor2 .boton2:hover {
+    color:green;
+    font-weight: bold;
+
 }
 
 
