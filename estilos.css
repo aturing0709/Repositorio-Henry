@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 #contenedor1 {
     width: 100%;
     height: 120px;
@@ -53,12 +59,17 @@ a {
    
 }
 
-
+a:hover {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
 
 /* *********************Css para el conetenedor 2 **********************/
 #contenedor2 {
+    margin: 0px;
     width: 100%;
-    height: 350px;
+    height: 300px;
     margin-top: auto;
     background-color: rgb(238, 70, 70);
     clear: both;
@@ -101,6 +112,7 @@ a {
 #contenedor2 h3 {
     clear: both;
     text-align: center;
+    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color:white;
@@ -113,7 +125,8 @@ a {
     clear: both;
     position: relative;
     float: right;
-    right: 600px;
+    right: 575px;
+    margin-top: 20px;
     padding: 5px 40px;
     background-color: white;
     color: rgb(190, 186, 186);
@@ -126,7 +139,7 @@ a {
 
 #contenedor2 .boton2 {
     clear: both;
-    margin-left: 742px;
+    margin-left: 780px;
     margin-top: 20px;
     padding: 9px 15px;
     background-color: rgb(238, 70, 70);
