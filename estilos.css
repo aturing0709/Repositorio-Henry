@@ -7,12 +7,12 @@
 #contenedor1 {
     width: 100%;
     height: 120px;
-    background-color: gray;
+    background-color: rgb(222, 220, 220);
 
 }
 
 /*Css para la imagen*/
-img {
+#contenedor1 .img1 {
     float: left;
     width: 130px;
     height: 100px;
@@ -30,8 +30,8 @@ img {
     margin-top: 40px;
     margin-left: 20px;
     width: 500px;
-    color: white;
-    text-shadow: 2px 2px black;
+    color: rgb(6, 6, 6);
+    text-shadow: 2px 2px rgb(251, 249, 249);
     
 }
 
@@ -54,15 +54,15 @@ a {
     text-align: center;
     font-size: 18px;
     padding: 2px;
-    color: black;
+    color: rgb(83, 81, 81);
     font-weight: bold;
    
 }
 
 a:hover {
     font-size: 20px;
-    color: white;
-    text-shadow: 2px 2px black;
+    color: rgb(9, 9, 9);
+   
 }
 
 /* *********************Css para el conetenedor 2 **********************/
@@ -139,7 +139,7 @@ a:hover {
 
 #contenedor2 .boton2 {
     clear: both;
-    margin-left: 780px;
+    margin-left: 768px;
     margin-top: 20px;
     padding: 9px 15px;
     background-color: rgb(238, 70, 70);
@@ -156,8 +156,172 @@ a:hover {
 #contenedor2 .boton2:hover {
     color:green;
     font-weight: bold;
-
 }
+
+
+/****************Css Para el contenedor 3 y sus elementos ********************/
+
+#contenedor3 {
+    width: 100%;
+    height: 400px;
+    /*overflow: hidden;*/
+    background-color: rgb(238, 70, 70);
+}
+
+/*#contenedor3 ul {
+    clear: both;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border: 2px solid green;
+    animation: cambio 15s infinite alternate linear;
+}
+
+#contenedor3 li {
+    width: 100%;
+    list-style-type: none;
+}*/
+
+#contenedor3 img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+/*@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}*/
+
+/*Css para el h2 del contenedor 3 */
+#contenedor3 h2 {
+    clear: both;
+    text-align: center;
+    margin-top: -70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#contenedor3 h5 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/********************Css para el contenedor 4 ************************/
+
+#contenedor4 {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+#contenedor4 .boton3 {
+    margin-top: 20px;
+    margin-left: 615px;
+    padding: 10px 25px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+#contenedor4 .boton3:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+/***********************css para elcontenedor 5 y sus elementos ******************************/
+
+.contenedor5 {
+    width: 100%;
+    height: 500px;
+    
+}
+
+.contenedor5 .parrafo {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.contenedor5 .producto {
+    font-weight: bold;
+}
+
+.contenedor5 .enlace {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+    color: blue;
+}
+ .contenedor5 .enlace:hover {
+    padding: 5px 10px;
+    border: 1px solid black;
+    background-color: rgb(249, 249, 216);
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+ }
+
+ /* Css para las portadas */
+
+ .contenedor5 .portada {
+    float: left;
+    width: 20%;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 0px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 25px black;
+    border-radius: 5px;
+ }
+
+ .contenedor5 .portada .jpg1 {
+    width: 100%;
+    height: 60%;
+    margin-top: 20px;
+ }
+
+ .contenedor5 .portada .p {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+ }
+
+ .contenedor5 .portada .pie {
+    margin-top: 47px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(211, 208, 208);
+    border-top: 1px solid rgb(15, 15, 15);
+    border-radius: 0px 0px 5px 5px;
+ }
+
+ .contenedor5 .portada .pie .p2 {
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: green;
+ }
+
 
 
 
